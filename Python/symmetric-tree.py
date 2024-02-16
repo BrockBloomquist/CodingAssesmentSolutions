@@ -4,6 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+#     Time Complexity: O(n)  Space complexity: O(h) where h is the height of the tree
 class Solution(object):
     def isMirror(self, l, r):
         if not l and not r:
