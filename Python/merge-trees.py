@@ -12,6 +12,7 @@ class Solution(object):
         :rtype: TreeNode
         Uses DFS specifically preorder traversal to merge trees by adding similarly positioned nodes
         and adding nodes that don't exist in the other tree at that position
+        Time complexity O(n) Space complexity O(1)
         """
         if not root1:
             return root2
